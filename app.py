@@ -34,3 +34,7 @@ if plot:
                             mapbox_style="carto-positron", width=1200, height=700, hover_name='District')
 
     st.plotly_chart(fig, use_container_width=True)
+
+
+india = pd.read_csv('india.csv')
+print(india.head())
